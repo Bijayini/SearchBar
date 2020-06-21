@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should render Header 1`] = `
+<body>
+  <div>
+    <header>
+      <a
+        class="brand"
+        href="#"
+      >
+        User Search
+      </a>
+    </header>
+  </div>
+</body>
+`;

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar component should render SearchBar without lists 1`] = `
+<div>
+  <div
+    class="overlay"
+  >
+    <div
+      aria-expanded="false"
+      aria-haspopup="listbox"
+      aria-owns="suggestionContainer"
+      class="field-container"
+      id="autoSuggestWrapper"
+      role="combobox"
+    >
+      <input
+        class="search-input"
+        datatestid="searchInput"
+        placeholder="Search User By Id, address, name,items, pincode"
+        type="text"
+        value=""
+      />
+      
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,23 @@
+.field-container{
+  position: relative;
+  width:100%;
+  max-width:600px;
+}
+.search-input{
+  width:100%;
+  color:#48484a;
+  font-size:16px;
+  background: url(../../images/SearchIcon.svg) no-repeat 10px center;
+  padding-left:40px;
+  ::placeholder, ::-webkit-input-placeholder,:-ms-input-placeholder {
+    color: #7a7a7a;
+  }
+}
+.close-icon{
+  position: absolute;
+  right:10px;
+  top:10px;
+  border: none;
+  background: transparent;
+}
+

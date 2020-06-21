@@ -1,0 +1,32 @@
+.suggestion-container{
+  position: absolute;
+  max-height: 300px;
+  top: auto;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+  .suggestion{
+    padding:10px;
+    border-bottom: 1px  solid  #7a7a7a;
+    font-size: 12px;
+    &.active{
+      background: #FFFEDC;
+    }
+  }
+  .no-suggestion{
+    padding:20px;
+    text-align: center;
+    color: #7a7a7a;
+    font-size: 17px;
+  }
+  .suggestion-items {
+    border-top: 1px  solid  #7a7a7a;
+    border-bottom: 1px  solid  #7a7a7a;
+  }
+  mark {
+    background: yellow;
+  }
+}

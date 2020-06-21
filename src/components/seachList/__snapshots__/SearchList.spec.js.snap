@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchList component should render SearchList when input is present 1`] = `
+<body>
+  <div>
+    <ul
+      class="suggestion-container"
+      datatestid="searchList"
+      role="listbox"
+    >
+      <li
+        class="suggestion active"
+        id="suggestionActive"
+        role="option"
+      >
+        <p
+          style="font-size: 14px; font-weight: 700;"
+        >
+          <span>
+            123-S2-546
+          </span>
+        </p>
+        <p
+          style="font-size: 13px; font-style: italic;"
+        >
+          <mark>
+            Jo
+          </mark>
+          <span>
+            hn Jacobs
+          </span>
+        </p>
+        <p
+          class="suggestion-item"
+        >
+          <mark>
+            “
+            Jo
+            ”
+          </mark>
+           found in items
+        </p>
+        <p>
+          <span>
+            1st Cross, 9th Main, abc Apartment, 5xx012
+          </span>
+        </p>
+      </li>
+    </ul>
+  </div>
+</body>
+`;
